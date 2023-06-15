@@ -1,0 +1,51 @@
+body{
+    background: black;
+    font-family: 'Kalam', cursive;
+}
+
+.postcard{
+    background: white;
+    margin: 150px auto;
+    padding: 0;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+ h1 {
+    margin: 0 0 12px 12px;
+ }
+.top{
+    display: flex;
+    margin: 0;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 230px;
+    padding: 10px 30px 10px 15px
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-right: 10px;
+    line-height: 1px;
+    padding-bottom: 25px;
+}
+.some{
+    border-bottom: 1px gray solid; 
+    line-height: 15px;
+    color: gray;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 55px;
+    width: 55px;
+    display: flex;
+    padding: 5px 0 25px 145px;
+}
